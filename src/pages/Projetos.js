@@ -1,10 +1,12 @@
 import React from 'react';
 import './Projetos.css';
-import NavBar from '../components/NavBar';
+import NavBar from '../components/NavBarProjeto';
 import Seguidor from '../components/Seguidor';
 import SmartPlant from '../components/SmartPlant';
 import Robo2Rodas from '../components/Robo2Rodas';
 import BracoRobotico from '../components/BracoRobotico';
+import CasaInteligente from '../components/CasaInteligente';
+
 
 function Projetos() {
 
@@ -26,6 +28,9 @@ function Projetos() {
         </div>
         <div className="BracoR">
           <BracoRobotico />
+        </div>
+        <div className="CasaI">
+          <CasaInteligente />
         </div>
       </div>
       {/*       <div className="grid">

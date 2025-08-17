@@ -1,17 +1,17 @@
 import React from 'react';
-import '../styles/SmartPlant.css';
-import smartPlant from '../img/espaco.png';
+import '../styles/CasaInteligente.css';
+import casaInteligente from '../img/espaco.png';
 
-function SmartPlant() {
+function CasaInteligente() {
   return (
-    <div className="smart">
-      <div className="smartP-img">
-        <img src={smartPlant} alt="smartplant" />
+    <div className="casa">
+      <div className="casaI-img">
+        <img src={casaInteligente} alt="casaInteligente" />
       </div>
-      <h3>Smart Plant</h3>
+      <h3>Casa Inteligente</h3>
       <p>Projeto de não sei o que sei lá</p>
     </div>
   );
 }
 
-export default SmartPlant;
+export default CasaInteligente;

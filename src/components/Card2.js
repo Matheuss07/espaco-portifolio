@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/Card2.css';
-import container from '../img/foto-espaco-rl.jpg'
-import { Link } from 'react-router-dom';
 
 function Card() {
     return (

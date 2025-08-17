@@ -1,0 +1,49 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; /* tudo alinhado à esquerda */
+  background-color: #fcbc0c;
+  height: 70px;
+
+  gap: 40px; /* espaço entre logo e links */
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000000;
+}
+
+.nav-bar .nav-left img {
+  width: 130px; 
+  height: auto; 
+  object-fit: contain;
+  padding-right: 400px;
+}
+
+.nav-bar .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* espaço entre os links */
+}
+
+.nav-bar .nav-links .link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-bar .nav-links .link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar .nav-links .selecionado {
+  background-color: #3f3c34;
+  color: #fff;
+}

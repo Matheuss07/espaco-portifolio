@@ -1,0 +1,21 @@
+.Teste{
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* altura total da tela */
+}
+
+.top {
+  flex: 1;
+  background-color: gray; 
+  display: flex;
+  align-items: center;
+
+}
+.text{
+    font-size: 25px;
+}
+
+.mid {
+  flex: 11;
+  background-color: whitesmoke;
+}

@@ -1,0 +1,51 @@
+.seguidor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  width: 180px;    
+  height: 280px;       /* tamanho fixo parecido com o card */
+  border: 1px solid #ccc; /* borda discreta */
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.seguidor:hover {
+  transform: scale(1.05);
+}
+
+/* parte da imagem */
+.seguidor-img {
+  width: 100%;
+  background-color: #fcbc0c; /* fundo amarelo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.seguidor-img img {
+  width: 150px;   /* ajusta o tamanho da logo */
+  height: 100px;
+  object-fit: cover;
+}
+
+/* título */
+.seguidor h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* descrição */
+.seguidor p {
+  margin: 0 10px 15px;
+  font-size: 14px;
+  color: #333;
+}

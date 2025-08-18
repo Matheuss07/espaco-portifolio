@@ -1,7 +1,5 @@
 import './Teste.css'
 
-import img from '../logo.svg'
-
 const Teste = () => {
     return (
     <div style={{

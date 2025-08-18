@@ -2,7 +2,7 @@ import React from 'react';
 import './StyleSeguidor.css';
 import NavBar from '../components/NavBarProjeto';
 import followlineImg from '../img/FollolineQuadrado.png';
-import { Link } from 'react-router-dom';
+
 
 
 function SeguidorPage() {

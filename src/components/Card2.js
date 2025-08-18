@@ -5,7 +5,7 @@ function Card() {
     return (
         <nav className='Card2-container'>
             <div className="card-text">
-                <span className='text'>O Espaço 4.0 do Campus Rio Largo é um lugar de aprendizado, onde o lema é just do it</span>
+                <span className='text'>🚀 O futuro já começou, e ele acontece aqui! No Espaço 4.0 você pode aprender desde robótica e impressão 3D até empreendedorismo e novas tecnologias. Nosso objetivo é transformar ideias em realidade e preparar você para os desafios do amanhã.</span>
          
             </div>
         </nav>

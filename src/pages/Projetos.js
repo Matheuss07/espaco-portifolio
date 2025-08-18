@@ -6,6 +6,7 @@ import SmartPlant from '../components/SmartPlant';
 import Robo2Rodas from '../components/Robo2Rodas';
 import BracoRobotico from '../components/BracoRobotico';
 import CasaInteligente from '../components/CasaInteligente';
+import { Link } from 'react-router-dom';
 
 
 function Projetos() {
@@ -27,7 +28,7 @@ function Projetos() {
           <Robo2Rodas />
         </div>
         <div className="BracoR">
-          <BracoRobotico />
+         <BracoRobotico />
         </div>
         <div className="CasaI">
           <CasaInteligente />

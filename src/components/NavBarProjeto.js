@@ -19,7 +19,7 @@ function NavBar() {
             <div className="nav-links">
                 <Link to="/" className="link">Início <FaHouse /></Link>
                 <Link to="/projetos" className="link selecionado">Projetos <GoProjectRoadmap /></Link>
-                <Link to="/sobre" className="link">Mais Sobre <IoChatboxEllipses /></Link>
+                <Link to="/MaisSobre" className="link">Mais Sobre <IoChatboxEllipses /></Link>
             </div>
 
         </nav>

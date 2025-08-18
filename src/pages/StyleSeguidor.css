@@ -1,4 +1,13 @@
-.Card-container {
+.Seguidor-page{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: #121212;
+}
+
+
+
+.CardSeguidor-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,57 +17,47 @@
   height: 100%; /* ocupa toda a altura disponível */
   min-height: 300px; /* altura mínima */
   padding: auto;
+  gap: 100px;
 
 }
 
-.card-left img {
+.cardSeguidor-left img {
   max-width: 600px;
   width: 100%;
   height: auto;
 }
-.card-left{
-  max-width: 600px;
+.cardSeguidor-left{
+  max-width: 400px;
   width: 100%;
   height: auto;
 }
 
 .container{
-  max-width: 200px;
-  width: 100%;
+  max-width: 100px;
+  width: 50%;
   object-fit: cover;
-  border-radius: 0px;
+  border-radius: 10px;
+}
+.containerbraco{
+  max-width: 00px;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-.card-text {
+.cardSeguidor-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   max-width: 500px;
   text-align: center;
-  padding-top: 50px;
   gap: 20px;
 }
 
-.card-text .text {
+.cardSeguidor-text .text {
   font-size: 18px;
   font-weight: 500;
   color: #ffffff; /* branco para contraste */
   line-height: 1.5;
-}
-
-.card-text .botao {
-  background-color: #fbbf24; /* amarelo parecido com tua navbar */
-  border: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.card-text .botao:hover {
-  background-color: #d97706; /* tom mais escuro no hover */
-  color: #fff;
 }

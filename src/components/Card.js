@@ -10,7 +10,8 @@ function Card() {
                 <img className='container' src={container} alt="Espaco Logo" />
             </div>
             <div className="card-text">
-                <span className='text'>O Espaço 4.0 do Campus Rio Largo é um lugar de aprendizado, onde o lema é just do it</span>
+                <span className='text'>👋 Seja bem-vindo ao Espaço 4.0 de Rio Largo!
+Um ambiente inovador criado para estimular a criatividade, o aprendizado prático e o desenvolvimento de novas habilidades. Aqui você encontra cursos, oficinas e projetos que unem tecnologia, inovação e empreendedorismo.</span>
                 <button className='botao'><Link to="/projetos" className="link">Projetos</Link></button>
             </div>
         </nav>

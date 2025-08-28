@@ -2,7 +2,7 @@ import React from 'react';
 import './StyleSeguidor.css';
 import NavBar from '../components/NavBarProjeto';
 import followlineImg from '../img/FollolineQuadrado.png';
-
+import seguidor_teste from '../img/seguidor_teste.png'
 
 
 function SeguidorPage() {
@@ -26,8 +26,20 @@ function SeguidorPage() {
                         </span>
                 </div>
                 <div className="cardSeguidor-left">
-                    <img className='container' src={followlineImg} alt="Espaco Logo" />
+                    <img className='container' src={seguidor_teste} alt="Espaco Logo" />
                 </div>
+                
+            </div>
+            <div className='CardSeguidor-container'>
+                <div className="cardSeguidor-left">
+                    <img className='container' src={seguidor_teste} alt="Espaco Logo" />
+                </div>
+                <div className="cardSeguidor-text">
+                    <span className='text'>
+                        A PÁGINA SEGUE EM MANUTENÇÃO POR TEMPO INDEFINIDO
+                        </span>
+                </div>
+                
             </div>
         </div>
     );

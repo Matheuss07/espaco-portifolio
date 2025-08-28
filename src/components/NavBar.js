@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/NavBar.css';
-import logo from '../img/espaco.png';
+import logo from '../img/espacosf.png';
 import { Link } from 'react-router-dom';
 import { FaHouse } from "react-icons/fa6";
 import { GoProjectRoadmap } from "react-icons/go";

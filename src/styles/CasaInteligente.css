@@ -48,3 +48,7 @@
   font-size: 14px;
   color: #333;
 }
+.casa-link{
+  text-decoration: none;
+  color: inherit;
+}

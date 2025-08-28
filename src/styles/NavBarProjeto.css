@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: flex-start; /* tudo alinhado à esquerda */
   background-color: #fcbc0c;
-  height: 70px;
-
+  height: 85px;
+  /* background: linear-gradient(to bottom, #fcbc0c 75%, #121212 100%); */
   gap: 40px; /* espaço entre logo e links */
 }
 

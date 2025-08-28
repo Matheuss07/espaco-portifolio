@@ -10,18 +10,11 @@
     align-items: flex-start;
     justify-content: left;
 }
-/* .nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%; 
-  padding: 0 40px;
-  background-color: #fcbc0c;
-  height: 70px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  gap: 40px;
-} */
-
+.nav-container{
+    width: 100%;
+    background-color: #fff;
+   /*  background: linear-gradient(to bottom, rgba(0,0,0,0) 70%, rgba(0,0,0,0.6) 100%); */
+}
 
 .principal-container{
     display: flex;

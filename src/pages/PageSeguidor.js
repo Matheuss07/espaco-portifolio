@@ -7,7 +7,7 @@ import followlineImg from '../img/FollolineQuadrado.png';
 
 function SeguidorPage() {
     return (
-        <div className='Seguidor-page'>
+        <div className='Robo'>
             <div> 
                 <NavBar />
             </div>

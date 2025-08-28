@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #121212;
+  background-color: #333333;
   width: 100%;       /* ocupa toda a largura */
   height: 100%; /* ocupa toda a altura disponível */
   min-height: 300px; /* altura mínima */

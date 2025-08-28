@@ -1,7 +1,7 @@
 .Seguidor-page{
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 150px;
     background-color: #121212;
 }
 

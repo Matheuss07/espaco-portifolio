@@ -6,7 +6,7 @@ import SmartPlant from '../components/SmartPlant';
 import Robo2Rodas from '../components/Robo2Rodas';
 import BracoRobotico from '../components/BracoRobotico';
 import CasaInteligente from '../components/CasaInteligente';
-
+import CardProjetos from '../components/CardProjetos';
 
 
 function Projetos() {
@@ -17,33 +17,9 @@ function Projetos() {
         <NavBar />
       </div>
 
-      <div className='projetos-container'>
-        <div className="seguidorL">
-          <Seguidor />
-        </div>
-        <div className="SmartP">
-          <SmartPlant />
-        </div>
-        <div className="Robo2R">
-          <Robo2Rodas />
-        </div>
-        <div className="BracoR">
-         <BracoRobotico />
-        </div>
-        <div className="CasaI">
-          <CasaInteligente />
-        </div>
+      <div className='cardprojetos-container'>
+        <CardProjetos />
       </div>
-      {/*       <div className="grid">
-
-        {projetos.map((nome, index) => (
-          <div className="projeto" key={index}>
-            <img src={bracoImg} alt={nome} className="projeto-img" />
-            <p className="projeto-text">{nome}</p>
-            <span>Projeto feito por ....</span>
-          </div>
-        ))}
-      </div> */}
 
     </div>
   );

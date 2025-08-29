@@ -1,4 +1,7 @@
-.Seguidor-page{
+.robo{
+
+}
+.Robo{
     display: flex;
     flex-direction: column;
     gap: 150px;
@@ -60,4 +63,27 @@
   font-weight: 500;
   color: #ffffff; /* branco para contraste */
   line-height: 1.5;
+}
+
+.CardSeguidor-last-container{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  width: 100%;       /* ocupa toda a largura */
+  height: 100%; /* ocupa toda a altura disponível */
+  min-height: 300px; /* altura mínima */
+  padding: auto;
+  gap: 100px;
+}
+
+.agrupar-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.text-seguidor{
+  color: #ffffff;
+  font-size: 4vh;
 }

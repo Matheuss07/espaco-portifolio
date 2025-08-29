@@ -6,7 +6,8 @@
   background-color: #fcbc0d;
   height: 85px;
   /* background: linear-gradient(to bottom, #fcbc0c 75%, #121212 100%);  */
-  gap: 40px; /* espaço entre logo e links */
+    gap: 20vh; /* espaço entre logo e links */
+  padding-left: 5vh;
 }
 
 .link{

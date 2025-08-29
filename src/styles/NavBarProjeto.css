@@ -1,4 +1,4 @@
-.nav-bar {
+.navp-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6,7 +6,8 @@
   background-color: #fcbc0c;
   height: 85px;
   /* background: linear-gradient(to bottom, #fcbc0c 75%, #121212 100%); */
-  gap: 40px; /* espaço entre logo e links */
+  gap: 20vh; /* espaço entre logo e links */
+  padding-left: 5vh;
 }
 
 .link{
@@ -16,20 +17,20 @@
     color: #000000;
 }
 
-.nav-bar .nav-left img {
+.navp-bar .nav-left img {
   width: 130px; 
   height: auto; 
   object-fit: contain;
   padding-right: 400px;
 }
 
-.nav-bar .nav-links {
+.navp-bar .nav-links {
   display: flex;
   align-items: center;
   gap: 30px; /* espaço entre os links */
 }
 
-.nav-bar .nav-links .link {
+.navp-bar .nav-links .link {
   text-decoration: none;
   color: #000000;
   font-size: 16px;
@@ -39,11 +40,11 @@
   transition: all 0.3s ease;
 }
 
-.nav-bar .nav-links .link:hover {
+.navp-bar .nav-links .link:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.nav-bar .nav-links .selecionado {
+.navp-bar .nav-links .selecionado {
   background-color: #3f3c34;
   color: #fff;
 }

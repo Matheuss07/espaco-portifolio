@@ -21,17 +21,16 @@
 
 /* parte da imagem */
 .robo-img {
-  width: 100%;
+  width: 90%;
   background-color: #fcbc0c; /* fundo amarelo */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0;
 }
 
 .robo-img img {
   width: 150px;   /* ajusta o tamanho da logo */
-  height: 100px;
+  height: 190px;
   object-fit: cover;
 }
 

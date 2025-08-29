@@ -11,7 +11,7 @@ import { IoChatboxEllipses } from "react-icons/io5";
 
 function NavBar() {
     return (
-        <nav className='nav-bar'>
+        <nav className='navp-bar'>
             <div className="nav-left">
                 <img className='logotipo' src={logo} alt="Espaco Logo" />
             </div>
